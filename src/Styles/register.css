@@ -1,0 +1,57 @@
+/* register.css */
+
+.registration-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  margin: auto; /* Center the container */
+}
+
+.registration-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.registration-container form {
+  text-align: left;
+}
+
+.registration-container label {
+  font-weight: bold;
+}
+
+.registration-container input[type="text"],
+.registration-container input[type="email"],
+.registration-container input[type="password"],
+.registration-container textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.registration-container .radio {
+  margin-right: 5px;
+  font-weight: normal;
+}
+
+.registration-container input[type="submit"] {
+  background-color: #2bff88;
+  font-size: 16px;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.registration-container input[type="submit"]:hover {
+  background-color: #2bd2ff;
+  font-weight: bold;
+}

@@ -1,0 +1,109 @@
+/* Product.css */
+
+.container {
+  display: flex; /* Allow sections to align side-by-side */
+  flex-direction: column; /* Stack sections vertically */
+  width: 80%; /* Set a reasonable width for the content area */
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 20px; /* Add some padding for visual appeal */
+  font-family: Arial, sans-serif; /* Set a base font family */
+}
+
+.content {
+  display: flex;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.header {
+  text-align: center; /* Center the "WELCOME to PRODUCTS" heading */
+  margin-bottom: 20px; /* Add some space after the header */
+}
+
+.header h1 {
+  color: #333; /* Dark gray for the heading */
+  font-size: 2em; /* Set a larger font size for emphasis */
+}
+
+.add-product {
+  border: 1px solid #ddd; /* Create a light border around the form */
+  padding: 15px;
+  /* Add space after the form */
+  border: none;
+}
+
+.add-product h2 {
+  color: #333; /* Dark gray for the "Add New Product" heading */
+  margin-bottom: 10px; /* Add some space after the heading */
+}
+
+.add-product form {
+  display: flex; /* Arrange form elements horizontally */
+  flex-wrap: wrap; /* Allow elements to wrap on smaller screens */
+}
+
+.add-product form label {
+  width: 100px; /* Set a consistent width for labels */
+  margin-right: 5px; /* Add some space between labels and inputs */
+  text-align: right; /* Align labels to the right */
+}
+
+.add-product input[type="text"],
+.add-product input[type="number"] {
+  width: 200px; /* Set a fixed width for input fields */
+  padding: 5px; /* Add some padding for user input */
+  border: 1px solid #ddd; /* Light border for input fields */
+  border-radius: 3px; /* Add rounded corners for a more modern look */
+}
+
+.add-product button {
+  background-color: #4caf50; /* Green color for the "Add Product" button */
+  color: black; /* White text for the button */
+  padding: 10px 20px; /* Add some padding for the button text */
+  border: none; /* Remove default button border */
+  border-radius: 3px; /* Add rounded corners for the button */
+  cursor: pointer; /* Set cursor to indicate button interactivity */
+  margin-top: 10px; /* Add some space above the button */
+}
+
+.add-product button:hover {
+  background-color: #3e8e41; /* Darker green for button hover effect */
+}
+
+.product-details {
+  border: 2px solid #ddd; /* Light border around the product table */
+  padding: 15px; /* Add some padding inside the table */
+}
+
+.product-details h1 {
+  color: #333; /* Dark gray for the "Product Details" heading */
+  margin-bottom: 10px; /* Add some space after the heading */
+  border-color: black;
+}
+
+.product-table {
+  width: 100%; /* Make the table full width */
+  border-collapse: collapse; /* Remove borders between table cells */
+}
+
+.product-table thead th {
+  background-color: #f2f2f2; /* Light gray background for table headers */
+  padding: 10px; /* Add some padding for table headers */
+  text-align: left; /* Left-align table header text */
+}
+
+.product-table tbody tr {
+  border-bottom: 1px solid #ddd; /* Light border between table rows */
+}
+
+.product-table tbody tr td {
+  padding: 10px; /* Add some padding for table cells */
+}
+
+.actions button {
+  background-color: #f0ad4e; /* Orange color for action buttons */
+  color: white; /* White text for action buttons */
+  padding: 5px 10px; /* Smaller padding for action buttons */
+  border: none; /* Remove default button*/
+}

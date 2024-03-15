@@ -1,0 +1,53 @@
+/* Order.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 500px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  border: 2px solid #333; /* Border color for the table */
+}
+
+th,
+td {
+  border: 1px solid #333; /* Border color for table cells */
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2; /* Background color for table header */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Alternate row background color */
+}
+
+button {
+  margin-top: 20px;
+  background-color: lightgreen;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+link {
+  color: white;
+}

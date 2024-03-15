@@ -1,0 +1,42 @@
+/* index.css */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #4158d0; /* Fallback color */
+  background: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
+}
+
+.bodydiv {
+  text-align: center;
+  background-color: #ffffff; /* White background color for the content */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+
+.button-wrapper {
+  margin-top: 20px;
+}
+
+.button-wrapper button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4158d0; /* Blue color from the gradient */
+  color: #ffffff; /* White button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px; /* Adding some spacing between buttons */
+}
+
+.button-wrapper button:last-child {
+  margin-right: 0; /* Remove margin from the last button */
+}
+
+.button-wrapper button:hover {
+  background-color: #3442a1; /* Darker blue color on hover */
+}
